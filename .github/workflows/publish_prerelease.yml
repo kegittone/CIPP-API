@@ -1,6 +1,7 @@
 name: Generate Release Notes and Upload
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - pre-release
